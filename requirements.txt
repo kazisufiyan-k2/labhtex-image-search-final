@@ -1,0 +1,12 @@
+streamlit
+
+torch==2.12.1
+torchvision==0.27.1
+
+transformers
+faiss-cpu
+
+numpy
+pandas
+pillow
+tqdm
