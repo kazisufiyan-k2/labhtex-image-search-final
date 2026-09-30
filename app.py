@@ -2,8 +2,6 @@ import streamlit as st
 from PIL import Image
 from search import search_image
 
-# PAGE CONFIG
-
 st.set_page_config(
     page_title="AI Fashion Image Search",
     layout="wide"
@@ -33,8 +31,6 @@ uploaded_file = st.file_uploader(
     "Upload an Image",
     type=["jpg", "jpeg", "png"]
 )
-
-# SEARCH
 
 if uploaded_file is not None:
 
